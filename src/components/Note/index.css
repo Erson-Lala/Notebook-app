@@ -1,0 +1,81 @@
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+ .col-3 {
+  float: left;
+  width: 33%;
+  margin-right: 0.3%;
+  padding: 10px;
+}
+
+.col-6 {
+  float: left;
+  width: 66.66%;
+  padding: 10px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.layout-idea {
+	margin-left: 100px;
+	border-left: 50px solid rgb(144, 98, 186);
+	width: 300px;
+	padding:  20px;
+	color: white;
+	background: rgb(16,14,76);
+}
+ 
+* {box-sizing: border-box;}
+
+.form-inline {  
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+ 
+
+.form-inline input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 3px solid #000;
+  border-radius: 5px;
+}
+
+.form-inline button {
+  padding: 5px 10px;
+  background-color: dodgerblue;
+  border: 5px solid dodgerblue;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  width: 40%;
+  font-size: 20px;
+}
+
+.form-inline button:hover {
+  background-color: royalblue;
+  border: 5px solid royalblue;
+  border-radius: 5px;
+}
+
+.note-title {
+	font-size: 33px;
+}
+
+.note-subtitle {
+	font-size: 25px;
+	margin: 10px;
+}
+.note-list li {
+  text-decoration: none;
+}

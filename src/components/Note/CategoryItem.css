@@ -1,0 +1,14 @@
+.category-item {
+  margin-bottom: 15px;
+  padding: 4px 12px;
+}
+
+.info {
+  background-color: #e7f3fe;
+  border-left: 6px solid #2196f3;
+}
+
+.success {
+  background-color: #ddffdd;
+  border-left: 6px solid #04aa6d;
+}
